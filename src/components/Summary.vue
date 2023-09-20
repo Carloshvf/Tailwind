@@ -1,10 +1,17 @@
 <script>
 import { ref } from "vue";
 import { RouterLink, RouterView } from "vue-router";
+import Modal from "./Modal.vue";
 
 export default {
-  data() {
+  components: {
+    Modal,
+  },
+  setup() {
+    const showModal = ref(false);
+
     return {
+      showModal,
       cadastroRealizado: false,
     };
   },
@@ -17,9 +24,7 @@ export default {
     <h3 class="text-gray-400">
       Double-check everything looks OK before confirming
     </h3>
-    <div
-      class="p-6 mt-3 max-w-sm bg-gray-100 rounded-xl shadow-lg flex flex-col"
-    >
+    <div class="p-6 mt-3 w-full bg-gray-100 rounded-xl shadow-lg flex flex-col">
       <div class="flex justify-between">
         <span class="text-blue-900 font-bold mt-5">Arcade (Monthly)</span>
         <span class="text-blue-900 font-bold mt-5">$9/mo</span>
@@ -45,13 +50,14 @@ export default {
           Go Back
         </RouterLink>
         <button
-          type="submit"
           class="inline-block font-bold bg-blue-700 text-white py-2 px-4 rounded-xl hover:bg-blue-900"
+          @click="showModal = true"
         >
           Confirm
         </button>
       </nav>
     </div>
+    <Modal :is-visible="showModal" @close="showModal = false"></Modal>
     <div v-if="cadastroRealizado">
       <p>Successfully registered!</p>
     </div>

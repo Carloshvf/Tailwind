@@ -31,10 +31,10 @@ export default {
   line-height: 24px;
   text-align: center;
   background-color: #3490dc; /* Circle background color */
-  color: white; /* Circle text color */
+  color: white;
   font-weight: bold;
-  border-radius: 50%; /* Make it a circle */
-  margin-right: 8px; /* Adjust spacing */
+  border-radius: 50%;
+  margin-right: 8px;
 }
 .step {
   /* Set your background image URL */
@@ -61,6 +61,6 @@ export default {
   font-weight: bold;
 }
 
-@media (min-width: 1024px) {
+@media (width: 400px), (height: 876px) {
 }
 </style>
