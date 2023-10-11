@@ -1,6 +1,5 @@
-# exercicio
-
-This template should help get you started developing with Vue 3 in Vite.
+# Tailwind
+Utilizando framework Quasar e Tailwind CSS
 
 ## Recommended IDE Setup
 
