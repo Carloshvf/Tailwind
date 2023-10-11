@@ -10,7 +10,7 @@
       <div
         class="modal-content flex-col items-center justify-center text-center"
       >
-        <img class="mx-auto my-4" src="icon-thank-you.svg" alt="thank" />
+        <!-- <img class="mx-auto my-4" src="icon-thank-you.svg" alt="thank" /> -->
         <h1 class="text-3xl font-bold text-blue-900">Thank You!</h1>
         <p class="text-gray-400 mt-2">
           Thanks for confirming your subscription! We hope you have fun using

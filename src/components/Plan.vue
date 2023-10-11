@@ -19,7 +19,7 @@ export default {
       <div
         class="p-6 max-w-sm bg-white rounded-xl shadow-lg flex flex-col w-full"
       >
-        <img class="h-12 w-12 mr-2" src="icon-arcade.svg" alt="Arcade" />
+        <!-- <img class="h-12 w-12 mr-2" src="icon-arcade.svg" alt="Arcade" /> -->
         <span class="text-blue-900 font-bold mt-5">Arcade</span>
         <span class="text-gray-400 font-bold mt-5">$9/mo</span>
       </div>
@@ -27,7 +27,7 @@ export default {
       <div
         class="p-6 max-w-sm bg-white rounded-xl shadow-lg flex flex-col w-full"
       >
-        <img class="h-12 w-12 mr-2" src="icon-advanced.svg" alt="Advanced" />
+        <!-- <img class="h-12 w-12 mr-2" src="icon-advanced.svg" alt="Advanced" /> -->
         <span class="text-blue-900 font-bold mt-5">Advanced</span>
         <span class="text-gray-400 font-bold mt-5">$12/mo</span>
       </div>
@@ -35,7 +35,7 @@ export default {
       <div
         class="p-6 max-w-sm bg-white rounded-xl shadow-lg flex flex-col w-full"
       >
-        <img class="h-12 w-12 mr-2" src="icon-pro.svg" alt="Pro" />
+        <!-- <img class="h-12 w-12 mr-2" src="icon-pro.svg" alt="Pro" /> -->
         <span class="text-blue-900 font-bold mt-5">Pro</span>
         <span class="text-gray-400 font-bold mt-5">$15/mo</span>
       </div>
