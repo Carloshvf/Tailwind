@@ -1,12 +1,12 @@
 <template>
   <div class="step rounded-xl">
     <ul style="list-style: none">
-      <li v-for="(name, index) in names" :key="index" class="step-item">
-        <span class="circle">{{ index + 1 }}</span> STEP {{ index + 1 }}
+      <!-- <li v-for="(name, index) in names" :key="index" class="step-item"> -->
+      <!-- <span class="circle">{{ index + 1 }}</span> STEP {{ index + 1 }}
         <span>
           {{ name }}
-        </span>
-      </li>
+        </span> -->
+      <!-- </li> -->
     </ul>
   </div>
 </template>
